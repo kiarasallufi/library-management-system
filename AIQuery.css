@@ -1,0 +1,79 @@
+.ai-box {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.ai-box h3 {
+  margin: 0 0 10px 0;
+  color: #111827;
+}
+
+.ai-row {
+  display: flex;
+  gap: 10px;
+}
+
+.ai-input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+.ai-input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.15);
+}
+
+.ai-btn {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+.ai-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.ai-result {
+  margin-top: 12px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.ai-summary {
+  margin: 6px 0 0 0;
+  color: #374151;
+}
+
+.ai-table-wrap {
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+.ai-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.ai-table th,
+.ai-table td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px;
+  text-align: left;
+}
+
+.ai-table th {
+  background: #eef2ff;
+  color: #1f2937;
+}

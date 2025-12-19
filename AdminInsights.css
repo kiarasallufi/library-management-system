@@ -1,0 +1,15 @@
+.insights-box {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 5px solid #4a90e2;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.insights-box h3 {
+  color: #4a90e2;
+}
+
+.insights-box ul {
+  margin-top: 5px;
+}

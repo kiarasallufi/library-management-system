@@ -1,0 +1,93 @@
+
+.book-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-2px);
+}
+
+
+select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  background: #f9f9f9;
+}
+
+select:focus {
+  border-color: #4a90e2;
+}
+
+
+.book-card input,
+.book-card select {
+  width: 100%;
+  margin-bottom: 6px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.book-card strong {
+  font-size: 16px;
+  color: #333;
+}
+
+
+.book-card b {
+  color: #555;
+}
+
+
+.book-card button {
+  margin-top: 6px;
+  margin-right: 6px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+
+.book-card button:first-of-type {
+  background: #4a90e2;
+  color: white;
+}
+
+
+.book-card button:last-of-type {
+  background: #e74c3c;
+  color: white;
+}
+
+
+.book-card button:nth-child(5) {
+  background: #2ecc71;
+  color: white;
+}
+
+
+.book-card button:nth-child(6) {
+  background: #95a5a6;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .book-card {
+    padding: 10px;
+  }
+
+  select {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
